@@ -1,3 +1,4 @@
+
 class employee:
 
     def __init__(self):
@@ -5,7 +6,7 @@ class employee:
         self.id=123
         self.salary=50000
         self.name="John"
-        print("Attributes has been initiated") 
+        print("Attributes has been initiat,ed") 
 
     def display(self,des):
         print("This Function was called manulllay")
@@ -15,4 +16,5 @@ class employee:
         print(f"{self.name} is Travelling to {des}")
 
 obj=employee()
-print(obj.display("kochi"))
+obj.name ="sam kumar"
+#display('chennai')
